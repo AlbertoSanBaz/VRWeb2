@@ -19,9 +19,11 @@
             <navigationInfo type='"EXAMINE" "WALK"'></navigationInfo>
             <directionalLight id="directional" direction='-1 -1 -1' on ="TRUE" intensity='1.0' shadowIntensity='0.0'> </directionalLight>
             <background DEF='bgnd' skyColor="0.8 0.8 0.8"></background>
-            <viewpoint id='vpp' DEF='vp' description='ViewPoint 1' centerOfRotation='3.4625 1.73998 -5.55' fieldOfView="1.5"
-                       orientation='0 1 0 2.99229' position='2.17102 2.00905 -3.97228'
-                       zNear="0.001" zFar="300"></viewpoint>
+            <!--<viewpoint id='vpp' DEF='vp' description='ViewPoint 1' centerOfRotation='3.4625 1.73998 -5.55' fieldOfView="1.5"-->
+                       <!--orientation='0 1 0 2.99229' position='2.17102 2.00905 -3.97228'-->
+                       <!--zNear="0.001" zFar="300"></viewpoint>-->
+            <Viewpoint id='vpp' DEF='vp' fieldOfView="1.5" centerOfRotation="-0.88475 0.88305 -1.48959" position="-0.88475 0.88305 -1.48959" orientation="0.05863 -0.99410 -0.09121 1.56519"
+                       zNear="0.00100" zFar="300.00000" description="ViewPoint 1"></Viewpoint>
 
             <group id='root' render='false'>
                 <group DEF='theScene'>
